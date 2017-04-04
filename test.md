@@ -2,6 +2,6 @@
 
 	$ ls
 
-'''python
+```python
 print("Hello world!")
-'''
+```
