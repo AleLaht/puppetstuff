@@ -70,3 +70,20 @@ class puppetstuff {
         }
 }
 ```
+
+lopuksi vielä muutin hakemistorakennetta käytännöllisemmäksi.
+
+luomalla ssh/ kansion ja muuttamalla init.pp luokan nimeksi ssh
+
+ssh/ kansioon siirsin manifest/ ja templates/ kansion
+
+lopuksi pushasin tiedostot githubiin
+
+```
+$ git add .
+$ git commit
+$ git config --global user.email "email"
+$ git config --global user.name "username"
+$ git pull
+$ git push
+```
