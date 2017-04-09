@@ -2,6 +2,10 @@
 
 ## Tehtävä
 
+h2. a) Julkaise tämän kerran kotitehtävä GitHubissa, kirjoita raportti MarkDownilla. (Älä poista vanhoja weppisivujasi, linkitä tarvittaessa uuteen).
+
+b) Asenna ja konfiguroi jokin palvelin package-file-service -tyyliin Puppetilla.
+
 ## Github
 
 Aloitin tehtävän asentamalla git paketin
