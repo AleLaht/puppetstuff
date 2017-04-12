@@ -3,7 +3,7 @@ class ssh {
 		ensure => 'installed',
 	}
 	file {'/etc/ssh/sshd_config':
-		content => template('puppetstuff/sshd_config'),
+		content => template('ssh/sshd_config'),
 		notify => Service['ssh'],
 		require => Package['ssh'],
 	}
