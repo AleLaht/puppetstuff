@@ -1,4 +1,4 @@
-class apache {
+class apache2 {
 	exec {'apt-update':
 		command => '/usr/bin/apt-get update',
 	}
