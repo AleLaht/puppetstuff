@@ -1,1 +1,1 @@
-sudo puppet apply --modulepath puppet/modules/ -e 'class {apache2:}'
+sudo puppet apply --modulepath puppet/modules/ -e 'class {eepos:}'

@@ -1,0 +1,73 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 4a28013b-4ae4-4766-a524-e3b561858d12
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:25
+      size = 1366, 719
+      title = aleksi@aleksi-xubuntu: ~
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = 4a28013b-4ae4-4766-a524-e3b561858d12
+  [[2top1bot]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 4a28013b-4ae4-4766-a524-e3b561858d12
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:25
+      size = 1366, 719
+      title = aleksi@aleksi-xubuntu: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 358
+      ratio = 0.5
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 681
+      ratio = 0.499633967789
+      type = HPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 4a28013b-4ae4-4766-a524-e3b561858d12
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = cedb05d3-e071-4061-8042-a99192268d79
+    [[[terminal5]]]
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 74d051b1-c98c-476e-a235-dcc9f76f8435
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.9
+    background_image = None
+    background_type = transparent
+    foreground_color = "#00ff00"
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    show_titlebar = False

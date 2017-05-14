@@ -1,0 +1,9 @@
+class eepos {
+	exec { 'wget':
+		command => '/usr/bin/wget -O /tmp/atom https://atom.io/download/deb',
+	}
+	exec { 'install-atom':
+		require => Exec['wget'],
+		command => '/usr/bin/dpkg -i /tmp/atom',
+	}
+}
