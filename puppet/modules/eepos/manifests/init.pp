@@ -9,16 +9,15 @@ class eepos {
 		ensure => 'latest',
 		source => '/tmp/atom.deb',
 		require => Exec['wget-atom'],
+		allowcdrom => 'true',
 	}
 	package { 'terminator':
 		ensure => 'latest',
-	}
-	file {'/$HOME/$USER/.config/terminator/config':
-		content => template('eepos/config'),
-		require => Package['terminator'],
+		allowcdrom => 'true',
 	}
 	package { 'tree':
-		ensure => 'installed',
+		ensure => 'latest',
+		allowcdrom => 'true',
 	}
 	
 }
